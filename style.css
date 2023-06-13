@@ -7,11 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-Body{
+body{
     background-color: #f7f9fd;
 }
 
-.wrapper{
+.wrapper {
     width: 90%;
     font-size: 16px;
     max-width: 43.753m;
@@ -23,7 +23,7 @@ Body{
 }
 
 .sub-container{
-    width:100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3em;
@@ -85,7 +85,7 @@ Body{
 
 .output-container span{
     display: block;
-    text-align:center;
+    text-align: center;
     font-weight: 400;
     color: #e5e5e5;
 }
@@ -142,16 +142,12 @@ Body{
     display: none;
 }
 
-.hide{
-    display: none;
-}
-
 .error{
     color: #ff465a;
 }
 
 .edit{
-    margin-left:auto;
+    margin-left: auto;
 }
 
 .edit, .delete{
